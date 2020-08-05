@@ -1,0 +1,273 @@
+* {margin:0;padding: 0;}
+
+.portfolio .container {
+    transform: translateY(-800px);
+    animation: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-default .navbar-nav > .active {
+    background-color: red !important;
+    color: red;
+}
+
+.portfolio i.fas.fa-search-plus {
+    font-size: 60px;
+    color: white;
+    /* background-color: #18bc9c; */
+}
+
+.portfolio .anh {
+    position: relative;
+    /* top: 0; */
+    width: 100%;
+    height: 100%;
+    /* left: 0; */
+}
+
+.portfolio .anh:hover .nen-xanh-green {
+    opacity: 1;
+}
+
+.nen-xanh-green {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #18bc9cb5;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+section.portfolio .kinh-lup {
+    position: absolute;
+    top: 93px;
+    left: 154px;
+}
+
+.portfolio h3 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.main i.fas.fa-star {
+    position: relative;
+    z-index: 55;
+    top: -27px;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #18bc9c;
+}
+
+i.fas.fa-star {}
+
+.main .container {
+    padding: 160px 0;
+}
+
+section.copyr {
+    padding: 28px;
+    color: white;
+    font-size: 18px;
+    background-color: #233140;
+}
+
+section.footer h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 34px;
+}
+
+section.footer p {
+    font-size: 18px;
+}
+
+section.contact a.btn.btn-default {
+    padding: 17px 36px;
+    font-size: 22px;
+    background-color: #18BC9C;
+    color: white;
+    margin-top: 63px;
+    margin-bottom: 35px;
+}
+
+section.contact h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+section.contact hr {
+    width: 278px;
+    border: 3px solid;
+    margin: 18px auto;
+}
+
+section.contact input#my-input {
+    margin: 23px 0;
+    padding: 25px;
+    font-size: 20px;
+    border: black;
+}
+
+section.about a.btn.btn-primary {
+    margin-top: 41px;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: 2px solid white;
+    background: none;
+}
+
+section.about hr {
+    width: 225px;
+    border: 3px solid;
+    color: white;
+    margin: 25px auto;
+}
+
+section.about {
+    color: white;
+}
+
+section.about p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+section.about h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section {
+    padding: 70px 0;
+}
+
+section.footer {
+    background-color: #2C3E50;
+    color: white;
+}
+
+section.footer i.fab {
+    font-size: 40px;
+    margin-right: 9px;
+    background-color: #2C3E50;
+    /* border: 2px solid white; */
+    /* border-radius: 50px; */
+    color: white;
+}
+
+section.about {
+    background-color: #18BC9C;
+}
+
+.portfolio .col-sm-12.col-md-4.col-lg-4 {margin-top: 15px;margin-bottom: 15px;}
+
+.main hr {
+    width: 275px;
+    border: 3px solid white;
+    /* height: 45px; */
+    margin: auto;
+}
+
+.main img {
+    /* margin-top: 150px; */
+}
+
+.main {
+    width: 100%;
+    height: 700px;
+    /* margin-top: 255px; */
+    background-color: #18BC9C;
+}
+
+.navbar-header a:hover {
+    color: #18BC9C !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main.noisong {
+    position: relative;
+    /* top: -35px; */
+    /* font-size: 25px; */
+}
+
+.main h3 {
+    /* margin-bottom: 146px; */
+    color: white;
+    /* padding-bottom: 72px; */
+}
+
+.main h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header nav li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white !important;
+    text-align: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: black !important;
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #18BC95 !important;
+}
+
+header .navbar-header a {
+    font-size: 30px;
+    font-weight: 700;
+    color: white !important;
+}
+
+
+
+header .container {
+    margin-top: 32px;
+}
+
+
+
+header nav.navbar.navbar-default {
+    margin-bottom: 0px;
+    height: 110px;
+    width: 100%;
+    /* line-height: 109px; */
+    background-color: #2C3E50;
+    /* color: white; */
+    transition: 0.4s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    width: 100%;
+    height: 92px;
+    margin-top: -19px;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+}
+
+.portfolio .container.xxxx{
+    animation: ra 0.9s forwards;
+}
+@-webkit-keyframes ra {
+    0%{transform: translateY(-800px);
+        opacity: 0;visibility: hidden;
+    }
+    100%{transform: translateY(0px);
+    opacity: 1;
+visibility: visible;}
+}
